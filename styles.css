@@ -456,46 +456,23 @@ th {
   }
 }
 
-.bottom-left-image {
-  position: fixed;
-  bottom: 40px;
-  left: 40px;
-  width: 240px; 
-  height: 100px; 
-  z-index: 6;
+.sidebar {
+  width: 300px;
+  height: 1601px;
+  background-color: #003A6C;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  position: sticky;
 }
 
-.bottom-left-label {
-  position: fixed;
-  bottom: 55px;
-  left: 120px; 
-  color: white; 
-  font-size: 20px; 
-  font-weight: bold; 
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
-  z-index: 7;
-  font-family:Arial, Helvetica, sans-serif;
-  text-align: center;
-  pointer-events: none;
+.sidebar-images {
+  position: sticky;
+  top: 140px; 
 }
 
-.bottom-left-image:hover {
-  filter: brightness(170%);
-}
-
-.entry-exit-points {
-  display: none;
-  position: absolute;
-}
-
-#roxas1 {
-  position: absolute;
-}
-
-.grayscale {
-  filter: grayscale(100%);
-}
-
-.entry-exit-points.show {
+.sidebar-images img {
   display: block;
+  width: 100%;
+  margin-bottom: 10px;
 }
