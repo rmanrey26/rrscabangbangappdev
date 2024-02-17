@@ -1,0 +1,501 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  margin-bottom: 140px;
+  padding-bottom: 230px;
+  flex-direction: column;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+
+.image {
+  width: 2222px;
+  height: 1421px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  visibility: hidden;
+}
+
+.label {
+  white-space: nowrap;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+}
+
+#martin {
+  position: absolute;
+  top: 81px;
+  left: 1281px;
+  z-index: 1;
+}
+
+#martinlabel {
+  top: 300px;
+  left: 1600px;
+  z-index: 5;
+  font-size: 47px;
+  pointer-events: none;
+}
+
+#finster {
+  position: absolute;
+  top: 716px;
+  left: 102px;
+  z-index: 0;
+}
+
+#finsterlabel {
+  top: 1220px;
+  left: 820px;
+  z-index: 5;
+  font-size: 47px;
+  pointer-events: none;
+}
+
+#canisius {
+  position: absolute;
+  top: 443px;
+  left: 544px;
+  z-index: 1;
+}
+
+#canisiuslabel {
+  top: 820px;
+  left: 680px;
+  z-index: 5;
+  font-size: 47px;
+  transform: rotate(-57deg);
+  pointer-events: none;
+}
+
+#thibault {
+  position: absolute;
+  top: 766px;
+  left: 307px;
+  z-index: 1;
+}
+
+#thibaultlabel {
+  top: 928px;
+  left: 360px;
+  z-index: 5;
+  font-size: 30px;
+  transform: rotate(44deg);
+  pointer-events: none;
+}
+
+#ccfc {
+  position: absolute;
+  top: 862px;
+  left: 1763px;
+  z-index: 2;
+}
+
+#ccfclabel {
+  top: 1028px;
+  left: 1830px;
+  z-index: 5;
+  font-size: 40px;
+  pointer-events: none;
+}
+
+#chapel {
+  position: absolute;
+  top: 862px;
+  left: 1591px;
+  z-index: 1;
+}
+
+#chapellabel {
+  top: 1028px;
+  left: 1610px;
+  z-index: 5;
+  font-size: 35px;
+  pointer-events: none;
+}
+
+#jubilee {
+  position: absolute;
+  top: 527px;
+  left: 1424px;
+  z-index: 1;
+}
+
+#jubileelabel {
+  top: 658px;
+  left: 1610px;
+  z-index: 5;
+  font-size: 40px;
+  pointer-events: none;
+}
+
+#weiman {
+  position: absolute;
+  top: 326px;
+  left: 210px;
+  z-index: 1;
+}
+
+#weimanlabel {
+  top: 560px;
+  left: 340px;
+  z-index: 5;
+  font-size: 32px;
+  transform: rotate(-57deg);
+  pointer-events: none;
+}
+
+#catwalk {
+  position: absolute;
+  top: 1056px;
+  left: 777px;
+  z-index: 1;
+}
+
+#catwalklabel {
+  top: 1080px;
+  left: 980px;
+  z-index: 5;
+  font-size: 27px;
+  pointer-events: none;
+}
+
+#catwalk {
+  position: absolute;
+  top: 1056px;
+  left: 777px;
+  z-index: 1;
+}
+
+#pool {
+  position: absolute;
+  top: 679px;
+  left: 1920px;
+  z-index: 0;
+}
+
+#poollabel {
+  top: 728px;
+  left: 1950px;
+  z-index: 5;
+  font-size: 30px;
+  pointer-events: none;
+}
+
+#bellarmine {
+  position: absolute;
+  top: 239px;
+  left: 776px;
+  z-index: 1;
+}
+
+#bellarminelabel {
+  top: 375px;
+  left: 800px;
+  z-index: 5;
+  font-size: 22px;
+  transform: rotate(-54deg);
+  pointer-events: none;
+}
+
+#gisbert {
+  position: absolute;
+  top: 0px;
+  left: 507px;
+  z-index: 1;
+}
+
+#gisbertlabel {
+  top: 175px;
+  left: 560px;
+  z-index: 5;
+  font-size: 33px;
+  transform: rotate(-54deg);
+  pointer-events: none;
+}
+
+
+#delrosario {
+  position: absolute;
+  top: 211px;
+  left: 11px;
+  z-index: 1;
+}
+
+#delrosariolabel {
+  top: 400px;
+  left: 35px;
+  z-index: 5;
+  font-size: 27px;
+  transform: rotate(-34deg);
+  pointer-events: none;
+}
+
+#dotterweich {
+  position: absolute;
+  top: 6px;
+  left: 215px;
+  z-index: 1;
+}
+
+#dotterweichlabel {
+  top: 170px;
+  left: 275px;
+  z-index: 5;
+  font-size: 27px;
+  transform: rotate(-34deg);
+  pointer-events: none;
+}
+
+#floor {
+  position: absolute;
+  top: 21px;
+  left: 133px;
+  z-index: -3;
+}
+
+#tree1 {
+  position: absolute;
+  top: 6px;
+  left: 143px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#tree2 {
+  position: absolute;
+  top: 938px;
+  left: 865px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#laudatosi {
+  position: absolute;
+  left: 798px;
+  top: 701px;
+  z-index: -2;
+}
+
+#bridge {
+  position: absolute;
+  left: 1470px;
+  top: 1141px;
+  z-index: 1;
+}
+
+.overlay-container {
+  position: absolute;
+}
+
+.overlay-image:hover {
+  filter: brightness(130%);
+}
+
+.top-bar {
+  background-color: #003A6C;
+  color: white;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo-container {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.title-container h1 {
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.modal-content {
+  background-color: rgba(255,255,255,0.8);
+  width: 70%;
+  max-width: 1200px;
+  height: auto;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  animation: modalAppear 0.3s ease-out;
+}
+
+.image-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.image-container img {
+  margin-right: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.building-details {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  grid-gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+}
+
+.building-photo {
+  width: 600px;
+  height: 600px;
+  background-color: #ccc;
+  background-size: cover;
+}
+
+.building-info {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+@keyframes modalAppear {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.modal-content {
+  animation: modalAppear 0.3s ease-out;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+}
+
+.bottom-left-image {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  width: 240px; 
+  height: 100px; 
+  z-index: 6;
+}
+
+.bottom-left-label {
+  position: fixed;
+  bottom: 55px;
+  left: 120px; 
+  color: white; 
+  font-size: 20px; 
+  font-weight: bold; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+  z-index: 7;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  pointer-events: none;
+}
+
+.bottom-left-image:hover {
+  filter: brightness(170%);
+}
+
+.entry-exit-points {
+  display: none;
+  position: absolute;
+}
+
+#roxas1 {
+  position: absolute;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.entry-exit-points.show {
+  display: block;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ateneo de Davao University Map</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="logo-container">
+      <img src="IMAGES/B7 - ATENEO LOGO.png" alt="Logo">
+    </div>
+    <div class="title-container">
+      <h1>Ateneo de Davao University - College Map</h1>
+    </div>
+  </div>
+  <img src="IMAGES/D5 - BUTTON.png" class="bottom-left-image" id="button-left-image" alt="Bottom Left Image">
+  <span class="bottom-left-label">Entry <br> and Exit <br>  Points</span>
+  <div class="container">
+    <img src="IMAGES/A0 - MAP.png" class="image" alt="Map">
+    <img src="IMAGES/A0 - MARTIN.png" class="overlay-image" id="martin">
+    <span id="martinlabel" class="label">Martin Hall</span>
+    <img src="IMAGES/A1 - FINSTER.png" class="overlay-image" id="finster">
+    <span id="finsterlabel" class="label">Finster Hall</span>
+    <img src="IMAGES/A8 - CATWALK.png" class="overlay-image" id="catwalk">
+    <span id="catwalklabel" class="label">Laudato Si</span>
+    <img src="IMAGES/A5 - CHAPEL.png" class="overlay-image" id="chapel">
+    <span id="chapellabel" class="label">Chapel</span>
+    <img src="IMAGES/A2 - CANISIUS.png" class="overlay-image" id="canisius">
+    <span id="canisiuslabel" class="label">Canisius Hall</span>
+    <img src="IMAGES/A3 - THIBAULT.png" class="overlay-image" alt="Overlay Image" id="thibault">
+    <span id="thibaultlabel" class="label">Thibault Hall</span>
+    <img src="IMAGES/A4 - CCFC.png" class="overlay-image" id="ccfc">
+    <span id="ccfclabel" class="label">CCFC Building</span>
+    <img src="IMAGES/A6 - JUBILEE.png" class="overlay-image" id="jubilee">
+    <span id="jubileelabel" class="label">Jubilee Hall</span>
+    <img src="IMAGES/A7 - WEIMAN.png" class="overlay-image" id="weiman">
+    <span id="weimanlabel" class="label">Weiman Hall</span>
+    <img src="IMAGES/A9 - POOL.png" class="overlay-image" id="pool">
+    <span id="poollabel" class="label">Swimming Pool</span>
+    <img src="IMAGES/B0 - BELLARMINE.png" class="overlay-image" id="bellarmine">
+    <span id="bellarminelabel" class="label">Bellarmine Hall</span>
+    <img src="IMAGES/B1 - GISBERT.png" class="overlay-image" id="gisbert">
+    <span id="gisbertlabel" class="label">Gisbert Hall</span>
+    <img src="IMAGES/B2 - DEL ROSARIO.png" class="overlay-image" id="delrosario">
+    <span id="delrosariolabel" class="label">Del Rosario Hall</span>
+    <img src="IMAGES/B3 - DOTTERWEICH.png" class="overlay-image" id="dotterweich">
+    <span id="dotterweichlabel" class="label">Dotterweich Hall</span>
+    <img src="IMAGES/B4 - FLOOR.png" class="decorations" id="floor">
+    <img src="IMAGES/B5 - TREE1.png" class="decorations" id="tree1">
+    <img src="IMAGES/B6 - TREE2.png" class="decorations" id="tree2">
+    <img src="IMAGES/B9 - LAUDATO SI.png" class="laudatosi" id="laudatosi">
+    <img src="IMAGES/C0 - BRIDGE.png" class="bridge" id="bridge">  
+  </div>
+  <div class="entry-exit-points" id="entry-exit-points" id="entry-exit-points">
+    <img src="IMAGES/E4 - ROXAS.png" alt="Entry Image" class="entry-image" id="roxas1">
+    <img src="exit-image.jpg" alt="Exit Image" class="exit-image">
+  </div>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="building-title"></h2>
+      <div class="building-details">
+        <div class="building-photo"></div>
+        <div class="building-info">
+          <table>
+            <tr>
+              <th>Room</th>
+              <th>Capacity</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
