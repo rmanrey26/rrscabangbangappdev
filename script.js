@@ -285,16 +285,3 @@ function getBuildingRooms(buildingTitle) {
     return [];
   }
 }
-
-const buttonImage = document.getElementById('button-left-image');
-const entryExitPoints = document.getElementById('entry-exit-points');
-const mapImage = document.querySelector('.container');
-
-// Add click event listener to the button image
-buttonImage.addEventListener('click', function() {
-  // Toggle the visibility of entry-exit-points container
-  entryExitPoints.classList.toggle('show');
-  
-  // Toggle grayscale filter on the main map image
-  mapImage.classList.toggle('grayscale');
-});
